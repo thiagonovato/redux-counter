@@ -11,3 +11,10 @@ export const decrement = (value) => {
         value: value
     }
 }
+
+export const zeraValor = () => {
+    return {
+        type: 'ZERA',
+        value: 0
+    }
+}

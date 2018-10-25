@@ -7,6 +7,8 @@ const counterReducer = (state = initialState, action) => {
             return { ...state, count: state.count + action.value }
         case 'DECREMENT':
             return { ...state, count: state.count - action.value }
+        case 'ZERA':
+            return { ...state, count: action.value }
         default:
             return state
     }

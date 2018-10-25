@@ -5,6 +5,7 @@ import { Provider } from 'react-redux'
 
 import Counter from './Counter'
 import DisplayCounter from './DisplayCounter'
+import Ola from './Ola'
 
 let store = createStore(counterReducer)
 
@@ -15,6 +16,7 @@ class App extends Component {
         <div className="App">
           <Counter />
           <DisplayCounter />
+          <Ola nome='Thiago' />
         </div>
       </Provider>
     )
