@@ -1,8 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
 
-const DisplayCounter = ({ count }) => {
-    return <p>O contador está em {count} </p>
+export const DisplayCounter = ({ count }) => {
+    return <p>O contador está em {count}</p>
 }
 
 const mapStateToProps = (state) => {
